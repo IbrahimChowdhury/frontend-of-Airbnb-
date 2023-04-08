@@ -1,0 +1,53 @@
+.link{
+   text-decoration: none;
+   color: black;
+margin-left: 20px;
+padding: 10px 20px;
+   box-shadow:2px 4px 6px black ;
+   border-radius: 20px;
+   display: flex;
+   gap: 10px;
+}
+.link:focus{
+    background-color: rgb(247, 64, 104);
+    color: white;
+}
+.link:active{
+    background-color: rgb(247, 64, 104);
+    color: white;
+}
+
+.link span{
+    position: relative;
+    top: 2px;
+
+}
+
+
+.navdiv{
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    margin-bottom: 150px;
+}
+.profileDiv{
+    display: flex;
+    flex-direction: column;
+    
+}
+.mainProfileDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.profileDiv h4{
+    margin: 20px;
+}
+.profileDiv button{
+    background-color: rgb(106, 97, 97);
+    color: aliceblue;
+}
+.profileDiv button:hover{
+    background-color: rgb(16, 15, 15);
+    cursor: pointer;
+}

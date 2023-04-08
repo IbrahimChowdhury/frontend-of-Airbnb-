@@ -1,0 +1,38 @@
+.register form {
+
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    position: relative;
+    bottom: 30px;
+}
+.register{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register form input,button{
+    margin: 4px;
+    height: 35px;
+    border-radius: 12px;
+    border: 0.4px solid rgb(228, 222, 222);
+    padding-left: 12px;
+    font-size: 16px;
+}
+.register form h1{
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    bottom: 20px;
+}
+
+.register form button{
+    background-color: rgb(247, 64, 104);
+    color: aliceblue;
+}
+.register form p{
+    text-align: center;
+}
+.register form input{
+}

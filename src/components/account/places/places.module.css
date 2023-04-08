@@ -1,0 +1,31 @@
+.addLogo{
+    text-decoration: none;
+    background-color: rgb(247, 64, 104); ;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    
+}
+.addLogo span{
+    padding-right: 4px;
+    position: relative;
+    top: 2px;
+    
+}
+
+
+
+.logoDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.innput{
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 90%;
+    padding: 5px;
+    padding-left: 20px;
+}

@@ -1,0 +1,77 @@
+.heading{
+    display: flex;
+    justify-content: space-around;
+ 
+    height: 30;
+    margin: 20px 0px;
+}
+.heading div a {
+    text-decoration: none;
+}
+
+.searchSection a {
+    padding: 0px 10px;
+
+}
+
+.airbnblogo{
+    font-size: 23px;
+    display: flex;
+    margin-top: 10px;
+   
+}
+.airbnblogo a span{
+    font-weight: bold;
+    padding-left: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.logo{
+    font-size: 28px;
+}
+
+.searchSection{
+    box-shadow: 2px 4px 6px rgb(140, 134, 134);
+    padding: 13px;
+    border-radius: 20px;
+    height: 22px;
+}
+
+.a1{
+    border-left: 1px solid black;
+}
+
+.person{
+    border: 1px solid rgb(155, 154, 154);  
+    border-radius: 25px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+  
+   
+}
+
+.person span{
+    padding: 0px 5px;
+    position: relative;
+    top: 3px;
+    color: black;
+}
+
+.personlogo{
+font-size: 30px;
+}
+.username{
+   font-size: 17px;
+   color: black;
+   
+   
+}
+
+.threebar{
+   
+}
+

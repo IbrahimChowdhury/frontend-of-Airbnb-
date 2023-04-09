@@ -29,7 +29,7 @@ function Header() {
         <div className="">
           <Link to={"/"} className='flex items-center xs:text-sm gap-1'>
             <FaAirbnb className="text-2xl xs:text-sm" />
-            <span className='sm:text-xl xs:text-sm'>Hellow bbnb</span>
+            <span className='sm:text-xl xs:text-sm'>Airbnb</span>
           </Link>
         </div>
 

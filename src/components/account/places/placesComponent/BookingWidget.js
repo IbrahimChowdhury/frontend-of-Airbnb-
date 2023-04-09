@@ -39,9 +39,15 @@ function BookingWidget({ place }) {
    }
 
     let bookingPlace =async()=>{
-      let response= await axios.post("/bookings",allInfo)
-      let bookingId=response.data._id
-        setredirect(`/account/booking/${bookingId}`)
+        if(user){
+            let response= await axios.post("/bookings",allInfo)
+            let bookingId=response.data._id
+              setredirect(`/account/booking/${bookingId}`)
+        }
+        else
+        {
+            alert("please sign in first")
+        }
     }
     if(redirect){
       return  <Navigate to={redirect} />

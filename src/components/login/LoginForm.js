@@ -13,10 +13,16 @@ let {setuser}=useContext(UserContext)
     e.preventDefault()
     try {
     const {data} = await axios.post("/login",{email,password})
-     setuser(data)
-      
-      // { <Navigate to={"/"} /> }
-      setredirect(true)
+    if(data)
+    {
+      setuser(data)   
+      alert("sign in successfully")
+        // { <Navigate to={"/"} /> }
+        setredirect(true)
+    } 
+    else{
+      alert("Please check username or password ")
+    }
     } catch (error) {
       alert("login failed")
     }

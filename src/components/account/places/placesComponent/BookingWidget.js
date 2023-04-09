@@ -40,10 +40,17 @@ function BookingWidget({ place }) {
 
     let bookingPlace =async()=>{
         if(user){
-            let response= await axios.post("/bookings",allInfo)
-            let bookingId=response.data._id
-              setredirect(`/account/booking/${bookingId}`)
-        }
+            if(checkIn!==null && checkOut!==null && name!==null && mobileNo!==null )
+            {
+                let response= await axios.post("/bookings",allInfo)
+                let bookingId=response.data._id
+                  setredirect(`/account/booking/${bookingId}`)
+            }
+            else
+            {
+                alert("please fillup all the section")
+            }
+            }
         else
         {
             alert("please sign in first")

@@ -12,8 +12,11 @@ export let UserContextprovider=({children})=>{
        if(!user)
        {
         axios.get("/profile").then(({data})=>{
-            setuser(data)
-            setready(true)
+            if(data)
+            {
+                setuser(data)
+                setready(true)
+            }
            
         })
        }
